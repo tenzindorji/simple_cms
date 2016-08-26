@@ -1,0 +1,14 @@
+<h1>Demo#hello</h1>
+<p>From hello world!</p>
+
+<br />
+
+<%= link_to('Index page', {:action => 'index'}) %>
+<br />
+
+ID: <%= params[:id] %><br />
+ID: <%= @id %><br />
+Next Page: <%= @page + 1 %><br />
+
+<hr />
+<%= params.inspect %>

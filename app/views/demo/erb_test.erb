@@ -1,0 +1,18 @@
+<h1>Testing ERB code</h1>
+
+<%= 1 + 10 %>
+<br />
+
+<%target = "World" %>
+<%= "Hello #{target}" %>
+
+
+<% 3.times do %>
+ <%= "xxx" %> 
+<%end%>
+
+<% @array.each do |n| %>
+ <%= n %> <br />
+<%end%>
+
+
